@@ -54,6 +54,7 @@ button {
 
 button:hover {
   background-color: #000000;
+  color: #e2e2e2;
 }
 
 .navbar {
