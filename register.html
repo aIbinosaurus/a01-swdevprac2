@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register</title>
+    <link rel="stylesheet" href="css/register.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="index.html">←</a>
+      <h3>Register Info</h3>
+    </div>
+    <form>
+      <div>
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="enter your name"
+        />
+      </div>
+
+      <div>
+        <label for="phone">Phone Number</label>
+        <input
+          type="text"
+          id="phone"
+          name="phone"
+          placeholder="enter your phone number"
+        />
+      </div>
+
+      <div>
+        <label for="tour-type">Select Group Size</label
+        ><select name="tour-type" id="tour-type">
+          <option value="small">Small Group (10-15 people)</option>
+          <option value="standard">Standard Group (35-40 people)</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="number">Number of passenger</label>
+        <input
+          type="number"
+          id="number"
+          name="number"
+          min="1"
+          placeholder="enter number between 1-99"
+        />
+      </div>
+
+      <div class="join-land">
+        <label for="join-land">Join Land Tour</label
+        ><input type="checkbox" id="join-land" name="join-land" />
+      </div>
+    </form>
+    <div class="footer"><h5>6531349921 Thita Soodphakdee</h5></div>
+  </body>
+</html>
